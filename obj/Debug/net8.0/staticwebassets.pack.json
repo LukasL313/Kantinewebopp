@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/lukaslarsen/KantinaWeb/obj/Debug/net8.0/scopedcss/projectbundle/KantinaWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets/KantinaWeb.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/lukaslarsen/KantinaWeb/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/lukaslarsen/KantinaWeb/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/lukaslarsen/KantinaWeb/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/lukaslarsen/KantinaWeb/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.KantinaWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.KantinaWeb.props",
+      "PackagePath": "build\\KantinaWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.KantinaWeb.props",
+      "PackagePath": "buildMultiTargeting\\KantinaWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.KantinaWeb.props",
+      "PackagePath": "buildTransitive\\KantinaWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
