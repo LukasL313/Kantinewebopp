@@ -1132,11 +1132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lukaslarsen/Desktop/KantinaWeb/KantinaWeb.csproj",
+      "projectUniqueName": "/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/KantinaWeb.csproj",
       "projectName": "KantinaWeb",
-      "projectPath": "/Users/lukaslarsen/Desktop/KantinaWeb/KantinaWeb.csproj",
+      "projectPath": "/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/KantinaWeb.csproj",
       "packagesPath": "/Users/lukaslarsen/.nuget/packages/",
-      "outputPath": "/Users/lukaslarsen/Desktop/KantinaWeb/obj/",
+      "outputPath": "/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lukaslarsen/.nuget/NuGet/NuGet.Config"

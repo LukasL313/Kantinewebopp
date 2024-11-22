@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TsO7/rduO/k=",
+  "dgSpecHash": "gcETO2C3sug=",
   "success": true,
-  "projectFilePath": "/Users/lukaslarsen/Desktop/KantinaWeb/KantinaWeb.csproj",
+  "projectFilePath": "/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/KantinaWeb.csproj",
   "expectedPackageFiles": [
     "/Users/lukaslarsen/.nuget/packages/microsoft.aspnetcore.authorization/8.0.8/microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",
     "/Users/lukaslarsen/.nuget/packages/microsoft.aspnetcore.components/8.0.8/microsoft.aspnetcore.components.8.0.8.nupkg.sha512",
