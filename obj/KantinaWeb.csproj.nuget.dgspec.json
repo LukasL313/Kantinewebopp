@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/KantinaWeb.csproj": {}
+    "/Users/lukaslarsen/Kantinewebopp/KantinaWeb.csproj": {}
   },
   "projects": {
-    "/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/KantinaWeb.csproj": {
+    "/Users/lukaslarsen/Kantinewebopp/KantinaWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/KantinaWeb.csproj",
+        "projectUniqueName": "/Users/lukaslarsen/Kantinewebopp/KantinaWeb.csproj",
         "projectName": "KantinaWeb",
-        "projectPath": "/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/KantinaWeb.csproj",
+        "projectPath": "/Users/lukaslarsen/Kantinewebopp/KantinaWeb.csproj",
         "packagesPath": "/Users/lukaslarsen/.nuget/packages/",
-        "outputPath": "/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/obj/",
+        "outputPath": "/Users/lukaslarsen/Kantinewebopp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lukaslarsen/.nuget/NuGet/NuGet.Config"

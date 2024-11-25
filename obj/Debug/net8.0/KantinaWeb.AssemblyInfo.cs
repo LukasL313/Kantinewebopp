@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KantinaWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b60807d81b04906297caef8f02b8d13d34826dd3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecf6631fdb2a423d33abc880d2c36638cf06afba")]
 [assembly: System.Reflection.AssemblyProductAttribute("KantinaWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KantinaWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WJ5y6e8AjF+DveKLMK1wZgqXTcORebOkWfGtNljn/TQ=",
+  "Hash": "NakR3Tn3SQtqRV0M+UUSrSutXH2w09LPG8VH6OARI38=",
   "Source": "KantinaWeb",
   "BasePath": "_content/KantinaWeb",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "KantinaWeb/wwwroot",
       "Source": "KantinaWeb",
-      "ContentRoot": "/Users/lukaslarsen/KantinaWeb/wwwroot/",
+      "ContentRoot": "/Users/lukaslarsen/Kantinewebopp/wwwroot/",
       "BasePath": "_content/KantinaWeb",
       "Pattern": "**"
     }
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "/Users/lukaslarsen/.nuget/packages/mudblazor/7.15.0/staticwebassets/MudBlazor.min.js"
     },
     {
-      "Identity": "/Users/lukaslarsen/KantinaWeb/obj/Debug/net8.0/scopedcss/bundle/KantinaWeb.styles.css",
+      "Identity": "/Users/lukaslarsen/Kantinewebopp/obj/Debug/net8.0/scopedcss/bundle/KantinaWeb.styles.css",
       "SourceId": "KantinaWeb",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/lukaslarsen/KantinaWeb/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/lukaslarsen/Kantinewebopp/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/KantinaWeb",
       "RelativePath": "KantinaWeb.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/lukaslarsen/KantinaWeb/obj/Debug/net8.0/scopedcss/bundle/KantinaWeb.styles.css"
+      "OriginalItemSpec": "/Users/lukaslarsen/Kantinewebopp/obj/Debug/net8.0/scopedcss/bundle/KantinaWeb.styles.css"
     },
     {
-      "Identity": "/Users/lukaslarsen/KantinaWeb/obj/Debug/net8.0/scopedcss/projectbundle/KantinaWeb.bundle.scp.css",
+      "Identity": "/Users/lukaslarsen/Kantinewebopp/obj/Debug/net8.0/scopedcss/projectbundle/KantinaWeb.bundle.scp.css",
       "SourceId": "KantinaWeb",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/lukaslarsen/KantinaWeb/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/lukaslarsen/Kantinewebopp/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/KantinaWeb",
       "RelativePath": "KantinaWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/lukaslarsen/KantinaWeb/obj/Debug/net8.0/scopedcss/projectbundle/KantinaWeb.bundle.scp.css"
+      "OriginalItemSpec": "/Users/lukaslarsen/Kantinewebopp/obj/Debug/net8.0/scopedcss/projectbundle/KantinaWeb.bundle.scp.css"
     },
     {
-      "Identity": "/Users/lukaslarsen/KantinaWeb/wwwroot/app.css",
+      "Identity": "/Users/lukaslarsen/Kantinewebopp/wwwroot/app.css",
       "SourceId": "KantinaWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukaslarsen/KantinaWeb/wwwroot/",
+      "ContentRoot": "/Users/lukaslarsen/Kantinewebopp/wwwroot/",
       "BasePath": "_content/KantinaWeb",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/Users/lukaslarsen/KantinaWeb/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/lukaslarsen/Kantinewebopp/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "KantinaWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukaslarsen/KantinaWeb/wwwroot/",
+      "ContentRoot": "/Users/lukaslarsen/Kantinewebopp/wwwroot/",
       "BasePath": "_content/KantinaWeb",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/lukaslarsen/KantinaWeb/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/lukaslarsen/Kantinewebopp/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "KantinaWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukaslarsen/KantinaWeb/wwwroot/",
+      "ContentRoot": "/Users/lukaslarsen/Kantinewebopp/wwwroot/",
       "BasePath": "_content/KantinaWeb",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/lukaslarsen/KantinaWeb/wwwroot/favicon.png",
+      "Identity": "/Users/lukaslarsen/Kantinewebopp/wwwroot/favicon.png",
       "SourceId": "KantinaWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/lukaslarsen/KantinaWeb/wwwroot/",
+      "ContentRoot": "/Users/lukaslarsen/Kantinewebopp/wwwroot/",
       "BasePath": "_content/KantinaWeb",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

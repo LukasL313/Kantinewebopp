@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "/Users/lukaslarsen/KantinaWeb/obj/Debug/net8.0/scopedcss/projectbundle/KantinaWeb.bundle.scp.css",
+      "Id": "/Users/lukaslarsen/Kantinewebopp/obj/Debug/net8.0/scopedcss/projectbundle/KantinaWeb.bundle.scp.css",
       "PackagePath": "staticwebassets/KantinaWeb.bundle.scp.css"
     },
     {
-      "Id": "/Users/lukaslarsen/KantinaWeb/wwwroot/app.css",
+      "Id": "/Users/lukaslarsen/Kantinewebopp/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/Users/lukaslarsen/KantinaWeb/wwwroot/bootstrap/bootstrap.min.css",
+      "Id": "/Users/lukaslarsen/Kantinewebopp/wwwroot/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/Users/lukaslarsen/KantinaWeb/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Id": "/Users/lukaslarsen/Kantinewebopp/wwwroot/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/lukaslarsen/KantinaWeb/wwwroot/favicon.png",
+      "Id": "/Users/lukaslarsen/Kantinewebopp/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {

@@ -12,59 +12,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KantinaWeb
 build_property.RootNamespace = KantinaWeb
-build_property.ProjectDir = /Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/
+build_property.ProjectDir = /Users/lukaslarsen/Kantinewebopp/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1
+build_property.MSBuildProjectDirectory = /Users/lukaslarsen/Kantinewebopp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/App.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Pages/AdminPage.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Pages/AdminPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9BZG1pblBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Pages/Bestillinger.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Pages/Bestillinger.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9CZXN0aWxsaW5nZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Pages/ConfigConnect.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Pages/ConfigConnect.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db25maWdDb25uZWN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Pages/Error.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Pages/Home.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Pages/Menu.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Pages/Menu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9NZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Pages/Registration.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Pages/Registration.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9SZWdpc3RyYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Routes.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/_Imports.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Layout/MainLayout.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-6vdfqmimel
 
-[/Users/lukaslarsen/KantineWebApp311/Kantinewebopp-1/Components/Layout/NavMenu.razor]
+[/Users/lukaslarsen/Kantinewebopp/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-9gaqy42hnd
