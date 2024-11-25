@@ -15,12 +15,7 @@ namespace UserNamespace
             await using (var connection = new NpgsqlConnection(connectionString))
             {
                await connection.OpenAsync();   
-            }
-
-            public async Task<UserObjects> GetUsers()
-            {
-               
-            }         
+            }    
           }
           catch (System.Exception)
           {
