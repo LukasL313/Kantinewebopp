@@ -23,7 +23,5 @@ namespace UserNamespace
                 throw;
             }
          }
-
-         
     }
 }

@@ -6,22 +6,30 @@ namespace UserNamespace
 {
     public class AdminPermissions
     {
-        static async Task AdminImplementation()
-        {
-          string connectionString = ConfigurationHelper.GetConnectionString("DefaultConnection");
+       private readonly string _connectionstring;
 
-          try
-          {
-            await using (var connection = new NpgsqlConnection(connectionString))
-            {
-               await connection.OpenAsync();   
-            }    
-          }
-          catch (System.Exception)
-          {
-            
-            throw;
-          } 
-        }
+       public AdminPermissions(string connectionstring)
+       {
+         _connectionstring = connectionstring;
+       }
+       public async Task OpenAsync()
+       {
+         await using var connection = new NpgsqlConnection(_connectionstring);
+         await connection.OpenAsync();
+       }
+
+       public async Task<List<UserObjects>> GetUser()
+       {
+         var users = new List<UserObjects>();
+
+         await using var connection = new NpgsqlConnection(_connectionstring);
+         await connection.OpenAsync();
+
+         var command = new NpgsqlCommand("SELECT userid, brukernavn, email");
+         
+
+  
+        return users;
+       }
     }
 }

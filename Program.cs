@@ -1,10 +1,19 @@
 using KantinaWeb.Components;
+using KantinaWeb.Services;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+builder.Services.AddRazorPages();
+builder.Services.AddServerSideBlazor();
+
+string connectionString = ConfigurationHelper.GetConnectionString("DefaultConnection");
+
+builder.Services.AddSingleton(sp => new ConfigurationHelper(connectionString));
 
 var app = builder.Build();
 
