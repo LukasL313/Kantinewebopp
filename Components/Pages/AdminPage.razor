@@ -1,0 +1,31 @@
+@page "/admin"
+@using KantinaWeb.Models
+@using KantinaWeb.Services
+@inject AdminPermissions AdminPermissionsService
+
+<PageTitle>Admin side</PageTitle>
+
+<h3>List of users</h3>
+
+<MudTable Items="users" Striped="true" Hover="true">
+    <HeaderContent>
+        <MudTh>User ID</MudTh>
+        <MudTh>Brukernavn</MudTh>
+        <MudTh>Email</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd>@context.UserID</MudTd>
+        <MudTd>@context.Brukernavn</MudTd>
+        <MudTd>@context.Email</MudTd>
+    </RowTemplate>
+</MudTable>
+
+
+@code {
+    private List<UserObjects> users = new List<UserObjects>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await AdminPermissionsService.GetUsers();
+    }
+}

@@ -10,10 +10,9 @@ builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddScoped<AdminPermissions>(provider =>
+    new AdminPermissions(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-string connectionString = ConfigurationHelper.GetConnectionString("DefaultConnection");
-
-builder.Services.AddSingleton(sp => new ConfigurationHelper(connectionString));
 
 var app = builder.Build();
 

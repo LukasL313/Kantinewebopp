@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lukaslarsen/Kantinewebopp/KantinaWeb.csproj": {}
+    "/Users/lukaslarsen/Kantinewebopp-2/KantinaWeb.csproj": {}
   },
   "projects": {
-    "/Users/lukaslarsen/Kantinewebopp/KantinaWeb.csproj": {
+    "/Users/lukaslarsen/Kantinewebopp-2/KantinaWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lukaslarsen/Kantinewebopp/KantinaWeb.csproj",
+        "projectUniqueName": "/Users/lukaslarsen/Kantinewebopp-2/KantinaWeb.csproj",
         "projectName": "KantinaWeb",
-        "projectPath": "/Users/lukaslarsen/Kantinewebopp/KantinaWeb.csproj",
+        "projectPath": "/Users/lukaslarsen/Kantinewebopp-2/KantinaWeb.csproj",
         "packagesPath": "/Users/lukaslarsen/.nuget/packages/",
-        "outputPath": "/Users/lukaslarsen/Kantinewebopp/obj/",
+        "outputPath": "/Users/lukaslarsen/Kantinewebopp-2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/lukaslarsen/.nuget/NuGet/NuGet.Config"
@@ -55,6 +55,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[27.2.4, )"
             }
           },
           "imports": [

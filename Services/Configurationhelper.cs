@@ -21,6 +21,6 @@ public static class ConfigurationHelper
         {
             throw new InvalidOperationException($"The connection string '{name}' hasnt been initialized.");
         }
-          return configuration.GetConnectionString(name);
+          return connectionString;
     }
 }

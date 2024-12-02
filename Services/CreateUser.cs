@@ -1,8 +1,9 @@
 using System;
 using System.Threading.Tasks;
 using Npgsql;
+using KantinaWeb.Models;
 
-namespace UserNamespace
+namespace KantinaWeb.Services
 {
     public class CreateUser
     {

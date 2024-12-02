@@ -1,6 +1,7 @@
 using System;
 
-namespace AdminUsersNamespace
+namespace KantinaWeb.Models
+
 {
     public class AdminUser
     {

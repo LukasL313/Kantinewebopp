@@ -10,6 +10,7 @@
     <PackageReference Include="MudBlazor" Version="7.15.0" />
     <PackageReference Include="Npgsql" Version="9.0.1" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.1" />
+    <PackageReference Include="Syncfusion.Blazor" Version="27.2.4" />
   </ItemGroup>
 
 </Project>
