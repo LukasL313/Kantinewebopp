@@ -7,16 +7,16 @@
 
 <h3>List of users</h3>
 
-<MudTable Items="users" Striped="true" Hover="true">
+<MudTable Items="users" Hover="true" Breakpoint="Breakpoint.Sm">
     <HeaderContent>
         <MudTh>User ID</MudTh>
         <MudTh>Brukernavn</MudTh>
         <MudTh>Email</MudTh>
     </HeaderContent>
     <RowTemplate>
-        <MudTd>@context.UserID</MudTd>
-        <MudTd>@context.Brukernavn</MudTd>
-        <MudTd>@context.Email</MudTd>
+        <MudTd DataLabel="User ID">@context.UserID</MudTd>
+        <MudTd DataLabel="Brukernavn">@context.Brukernavn</MudTd>
+        <MudTd Datalabel="Email">@context.Email</MudTd>
     </RowTemplate>
 </MudTable>
 
