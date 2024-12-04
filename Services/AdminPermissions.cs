@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace KantinaWeb.Services
 {
-    public class AdminPermissions : IAdmin
+    public class AdminPermissions : IAdmin // Arver listene fra Admin.cs 
     {
        private readonly string _connectionstring;
 
@@ -14,15 +14,10 @@ namespace KantinaWeb.Services
        {
          _connectionstring = ConfigurationHelper.GetConnectionString("DefaultConnection");
        }
-       public async Task OpenAsync()
-       {
-         await using var connection = new NpgsqlConnection(_connectionstring);
-         await connection.OpenAsync();
-       }
 
         public async Task<List<UserObjects>> GetUsers()
         {
-            var users = new List<UserObjects>();
+            var users = new List<UserObjects>(); // UserObjects are objektene til bruker modellen i /Models/User.cs
             
             await using var connection = new NpgsqlConnection(_connectionstring);
             await connection.OpenAsync();

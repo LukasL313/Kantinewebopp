@@ -1,0 +1,34 @@
+@page "/register"
+@using KantinaWeb.Services
+@using KantinaWeb.Models
+@inject userLogin UserLogin
+@inject NavigationManager NavigationManager
+<PageTitle>RegistrationForm</PageTitle>
+
+<EditForm Model="@user" OnValidSubmit="HandleRegistration">
+<DataAnnotationsValidator /> 
+   <ValidationSummary />
+
+      <h1>Register en bruker her</h1> 
+
+      <div>
+        <label for="brukernavn">Brukernavn</label>
+        <InputText id="brukernavn" class="form-control" @bind-Value="user.Brukernavn" />
+      </div>
+
+      <div>
+        <label for="email">E-post</label>
+        <InputText id="email" class="form-control" @bind-Value="user.Email" />
+     </div>
+
+     <div>
+        <label for="passord">Passord</label>
+        <InputText id="passord" class="form-control" @bind-Value="user.Passord"/>
+     </div>
+      
+     <button type="submit">Register bruker</button>
+</EditForm>
+
+@code {
+   private UserObjects user = new UserObjects();
+}
