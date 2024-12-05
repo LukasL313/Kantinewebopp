@@ -9,11 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 builder.Services.AddRazorPages();
+builder.Services.AddScoped<userLogin>();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddScoped<AdminPermissions>(provider =>
-    new AdminPermissions(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-
+builder.Services.AddScoped<AdminPermissions>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

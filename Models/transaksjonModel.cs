@@ -4,6 +4,6 @@ namespace KantinaWeb.Services
 {
   public class transaksjonModel
   {
-    // ....
+    // . ... .. . .
   }
 }

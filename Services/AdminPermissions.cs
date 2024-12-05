@@ -10,7 +10,7 @@ namespace KantinaWeb.Services
     {
        private readonly string _connectionstring;
 
-       public AdminPermissions(string connectionstring)
+       public AdminPermissions()
        {
          _connectionstring = ConfigurationHelper.GetConnectionString("DefaultConnection");
        }
@@ -42,21 +42,21 @@ namespace KantinaWeb.Services
        public Task<bool> DeleteUser(int UserID)
        {
           var users = new List<bool>();
-
+           //... placeholder
            return Task.FromResult(false);
        }
 
        public Task<bool> UpdateUser(UserObjects UserID)
        {
          var users = new List<bool>();
-         
+           //... placeholder
           return Task.FromResult(false);
        }
 
        public Task<bool> CreateUser(UserObjects UserID)
        {
          var users = new List<bool>();
-
+        //... placeholder
          return Task.FromResult(false);
        } 
     }
