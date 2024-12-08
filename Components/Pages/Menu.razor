@@ -1,16 +1,59 @@
 @page "/menu"
+@using KantinaWeb.Services
+@using KantinaWeb.Models
+@inject Meny Meny
+<PageTitle>Meny</PageTitle>
 
-<PageTitle>Menu</PageTitle>
+<div class="ma-9">
+ <h1>Meny siden</h1>
+ <p>Her finner du alt på menyen.</p>
 
-<h1>Meny siden</h1>
-<p>Her finner du alt på menyen.</p>
+<h1>Mat</h1>
+ <MudTable Items="@matmeny" Hover="true" Breakpoint="Breakpoint.Sm">
+     <HeaderContent>
+         <MudTh Style="font-size: 1.1rem">Matvare</MudTh>
+         <MudTh Style="font-size: 1.1rem">Beskrivelse</MudTh>
+         <MudTh Style="font-size: 1.1rem">Pris</MudTh>
+     </HeaderContent>
+     <RowTemplate>
+         <MudTd DataLabel="Matvare">@context.Mat_vare</MudTd>
+         <MudTd DataLabel="Beskrivelse">@context.Mat_besk</MudTd>
+         <MudTd DataLabel="Pris">@context.Mat_pris</MudTd>
+     </RowTemplate>
+ </MudTable>
 
-<a href="Frokost_meny">Frokost</a>
-<a href="Lunch_meny">Lunch</a>
-<a href="Drikke_meny">Drikke</a>
+ <h1>Drikke</h1>
+ <MudTable Items="@drikkemeny" Hover="true" Breakpoint="Breakpoint.Sm">
+     <HeaderContent>
+         <MudTh>Drikkevare</MudTh>
+         <MudTh>Beskrivelse</MudTh>
+         <MudTh>Pris</MudTh>
+     </HeaderContent>
+     <RowTemplate>
+         <MudTd DataLabel="Drikkevare">@context.Drikke_vare</MudTd>
+         <MudTd DataLabel="Beskrivelse">@context.Drikke_besk</MudTd>
+         <MudTd DataLabel="Pris">@context.Drikke_pris</MudTd>
+     </RowTemplate>
+ </MudTable>
+</div>
 
 <h1>Dagens tilbud</h1>
 
 @code {
+    private List<Matvarer> matmeny = new List<Matvarer>();
+    private List<Drikkevarer> drikkemeny = new List<Drikkevarer>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            matmeny = await Meny.GetMatMeny();
+            drikkemeny = await Meny.GetDrikkeMeny();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading menu: {ex.Message}");
     
+        }
+    }
 }

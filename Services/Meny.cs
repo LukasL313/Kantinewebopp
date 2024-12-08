@@ -21,7 +21,7 @@ namespace KantinaWeb.Services
         await using var connection = new NpgsqlConnection(_connectionstring);
         await connection.OpenAsync();
 
-        var cmd = new NpgsqlCommand("SELECT (\"drikke_id\", \"drikke_vare\", \"drikke_besk\", \"drikke_pris\") VALUES (@drikke_vare, @drikke_besk, @drikke_pris) FROM drikkevarer", connection);
+        var cmd = new NpgsqlCommand("SELECT * FROM drikkevarer", connection);
         await using var reader = await cmd.ExecuteReaderAsync();
         
         while (await reader.ReadAsync())
@@ -43,7 +43,7 @@ namespace KantinaWeb.Services
       await using var connection = new NpgsqlConnection(_connectionstring);
       await connection.OpenAsync();
       
-      var cmd = new NpgsqlCommand("SELECT (\"mat_id\", \"mat_vare\", \"mat_besk\", \"mat_pris\") VALUES (@mat_vare, @mat_besk, @mat_pris) FROM matvarer", connection);
+      var cmd = new NpgsqlCommand("SELECT * FROM matvarer", connection); 
       await using var reader = await cmd.ExecuteReaderAsync();
       
       while (await reader.ReadAsync())

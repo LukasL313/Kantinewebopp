@@ -1,35 +1,36 @@
 @page "/register"
 @using KantinaWeb.Services
 @using KantinaWeb.Models
-@inject userLogin userLogin
+@inject UserLogin UserLogin
 @inject NavigationManager NavigationManager
 <PageTitle>RegistrationForm</PageTitle>
 
-<EditForm Model="@user" OnValidSubmit="HandleSubmit" FormName="HandleSubmit">
+<EditForm Model="@user" OnValidSubmit="HandleSubmit" FormName="RegistrationForm">
     <DataAnnotationsValidator />
     <ValidationSummary />
     <h1>Register en bruker her</h1> 
     <div>
         <label for="brukernavn">Brukernavn</label>
-        <InputText id="brukernavn" class="form-control" @bind-Value="user.Brukernavn" />
+        <InputText id="username" class="form-control" @bind-Value="user.Brukernavn" />
     </div>
     <div>
         <label for="email">E-post</label>
-        <InputText id="email" class="form-control" @bind-Value="user.Email" />
+        <InputText id="email" type="email" class="form-control" @bind-Value="user.Email" />
     </div>
     <div>
-        <label for="passord">Passord</label>
+        <label for="password">Passord</label>
         <InputText id="passord" type="password" class="form-control" @bind-Value="user.Passord" />
     </div>
     <button type="submit" class="form-control">Register bruker</button>
 </EditForm>
 
 @code {
-    private UserObjects user = new UserObjects("","","",1);
+    private UserObjects user = new();
 
     private async Task HandleSubmit()
-    {
-        await userLogin.Register(user);
+   { 
+        await UserLogin.Register(user);
         NavigationManager.NavigateTo("/");
+       
     }
 }
